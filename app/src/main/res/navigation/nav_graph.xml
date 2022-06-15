@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/Photo_list_fragment">
+
+    <fragment
+        android:id="@+id/Photo_list_fragment"
+        android:name="com.flickrSearch.image.presentration.list.PhotoListFragment"
+        android:label="Photo List"
+        tools:layout="@layout/fragment_photo_list" >
+
+        <action
+            android:id="@+id/action_Photo_list_fragment_to_Photo_view"
+            app:destination="@id/Photo_view" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/Photo_view"
+        android:name="com.flickrSearch.image.presentration.fullImage.ImageFragment"
+        android:label="Photo"
+        tools:layout="@layout/fragment_image" >
+
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/photo_list_search"
+        android:name="com.flickrSearch.image.presentration.PhotoSearch.PhotosearchFragment"
+        android:label="Search"
+        tools:layout="@layout/photo_search_fragment" >
+
+
+        <action
+            android:id="@+id/action_restaurant_list_search_to_Photo_view"
+            app:destination="@id/Photo_view" />
+    </fragment>
+</navigation>
