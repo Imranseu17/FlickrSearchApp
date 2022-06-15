@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/imran/Downloads/Task/FlickrSearch/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v28/values-v28.xml",
+            "outputFile": "/home/imran/Downloads/FlickrSearchApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v28/values-v28.xml",
             "map": [
                 {
                     "source": "/home/imran/.gradle/caches/transforms-3/daeac8159e3d97f4972b47d9ce911832/transformed/appcompat-1.2.0/res/values-v28/values-v28.xml",

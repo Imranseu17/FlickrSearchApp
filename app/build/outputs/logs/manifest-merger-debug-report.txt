@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:2:1-37:12
+ADDED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:2:1-37:12
 MERGED from [androidx.databinding:viewbinding:7.1.1] /home/imran/.gradle/caches/transforms-3/2681963c3ee77042afb1dd1c1f8fbf04/transformed/jetified-viewbinding-7.1.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.3.0] /home/imran/.gradle/caches/transforms-3/deebfebedf0a3748169817106ebfb7e0/transformed/navigation-ui-ktx-2.3.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui:2.3.0] /home/imran/.gradle/caches/transforms-3/ce8db20caaa487eddfb3106be6dabbe7/transformed/navigation-ui-2.3.0/AndroidManifest.xml:17:1-24:12
@@ -95,25 +95,25 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /home/imran/.gradle/cache
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/imran/.gradle/caches/transforms-3/16f6778c9824a0e46825af82ad98f7bf/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/imran/.gradle/caches/transforms-3/0b0da4fac5a1ef326fc912ed5f93c374/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.dagger:dagger-lint-aar:2.28.1] /home/imran/.gradle/caches/transforms-3/83e2eac189fa053ba4b6e74edfda328a/transformed/jetified-dagger-lint-aar-2.28.1/AndroidManifest.xml:16:1-19:12
-INJECTED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:2:1-37:12
 	package
-		ADDED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:3:5-37
-		INJECTED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml
-		INJECTED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml
+		ADDED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml
-		ADDED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:2:1-37:12
-		INJECTED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml
+		INJECTED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:2:1-37:12
+		INJECTED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml
-		ADDED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:2:1-37:12
-		INJECTED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml
+		INJECTED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:2:1-37:12
+		INJECTED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:5:5-79
+ADDED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:5:5-79
 MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/imran/.gradle/caches/transforms-3/e8288bae9c6c9ac180bc9d797994e797/transformed/jetified-play-services-maps-16.0.0/AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/imran/.gradle/caches/transforms-3/e8288bae9c6c9ac180bc9d797994e797/transformed/jetified-play-services-maps-16.0.0/AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /home/imran/.gradle/caches/transforms-3/7de3a61f5de2490e74bc4c54bf5413bd/transformed/jetified-play-services-analytics-16.0.8/AndroidManifest.xml:24:5-79
@@ -121,9 +121,9 @@ MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /home/imran/
 MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /home/imran/.gradle/caches/transforms-3/514815528b15abd5d22b913af75b9146/transformed/jetified-play-services-analytics-impl-16.0.8/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /home/imran/.gradle/caches/transforms-3/514815528b15abd5d22b913af75b9146/transformed/jetified-play-services-analytics-impl-16.0.8/AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:5:22-76
+		ADDED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:5:22-76
 uses-permission#android.permission.INTERNET
-ADDED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:6:5-67
+ADDED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:6:5-67
 MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/imran/.gradle/caches/transforms-3/e8288bae9c6c9ac180bc9d797994e797/transformed/jetified-play-services-maps-16.0.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/imran/.gradle/caches/transforms-3/e8288bae9c6c9ac180bc9d797994e797/transformed/jetified-play-services-maps-16.0.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /home/imran/.gradle/caches/transforms-3/7de3a61f5de2490e74bc4c54bf5413bd/transformed/jetified-play-services-analytics-16.0.8/AndroidManifest.xml:23:5-67
@@ -131,9 +131,9 @@ MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /home/imran/
 MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /home/imran/.gradle/caches/transforms-3/514815528b15abd5d22b913af75b9146/transformed/jetified-play-services-analytics-impl-16.0.8/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /home/imran/.gradle/caches/transforms-3/514815528b15abd5d22b913af75b9146/transformed/jetified-play-services-analytics-impl-16.0.8/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:6:22-64
+		ADDED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:6:22-64
 application
-ADDED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:8:5-35:19
+ADDED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:8:5-35:19
 MERGED from [com.google.android.material:material:1.5.0] /home/imran/.gradle/caches/transforms-3/f6880d88bc79c5c85551ba7d4c60d34a/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.5.0] /home/imran/.gradle/caches/transforms-3/f6880d88bc79c5c85551ba7d4c60d34a/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
 MERGED from [com.airbnb.android:lottie:3.4.0] /home/imran/.gradle/caches/transforms-3/d3cd705b08b1662d0fb9059c11a8cc4b/transformed/jetified-lottie-3.4.0/AndroidManifest.xml:9:5-20
@@ -185,59 +185,59 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/imran/.gradle/ca
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/imran/.gradle/caches/transforms-3/14f9e83c3f70682560efc705dc98a435/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/imran/.gradle/caches/transforms-3/14f9e83c3f70682560efc705dc98a435/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 	android:requestLegacyExternalStorage
-		ADDED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:14:9-52
+		ADDED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:14:9-52
 	android:preserveLegacyExternalStorage
-		ADDED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:13:9-53
+		ADDED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:13:9-53
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.5.0] /home/imran/.gradle/caches/transforms-3/2fd13f22171352a3bb0285e6d6591606/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:16:9-35
+		ADDED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:16:9-35
 	android:label
-		ADDED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:12:9-41
+		ADDED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:12:9-41
 	android:roundIcon
-		ADDED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:15:9-48
+		ADDED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:15:9-48
 	android:icon
-		ADDED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:11:9-43
+		ADDED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:17:9-40
+		ADDED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:17:9-40
 	android:usesCleartextTraffic
-		ADDED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:18:9-44
+		ADDED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:18:9-44
 	android:name
-		ADDED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:9:9-62
+		ADDED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:9:9-62
 activity#com.flickrSearch.image.presentration.activities.MainActivity
-ADDED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:19:9-21:40
+ADDED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:19:9-21:40
 	android:exported
-		ADDED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:21:13-37
+		ADDED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:21:13-37
 	android:name
-		ADDED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:20:13-88
+		ADDED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:20:13-88
 activity#com.flickrSearch.image.presentration.activities.SplashActivity
-ADDED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:22:9-30:20
+ADDED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:22:9-30:20
 	android:exported
-		ADDED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:24:13-36
+		ADDED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:24:13-36
 	android:name
-		ADDED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:23:13-90
+		ADDED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:23:13-90
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:25:13-29:29
+ADDED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:25:13-29:29
 action#android.intent.action.MAIN
-ADDED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:26:17-69
+ADDED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:26:25-66
+		ADDED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:28:17-77
+ADDED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:28:27-74
+		ADDED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:28:27-74
 uses-library#org.apache.http.legacy
-ADDED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:32:9-34:40
+ADDED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:32:9-34:40
 	android:required
-		ADDED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:34:13-37
+		ADDED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:33:13-50
+		ADDED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:33:13-50
 uses-sdk
-INJECTED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml
-INJECTED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml
+INJECTED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml
+INJECTED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:7.1.1] /home/imran/.gradle/caches/transforms-3/2681963c3ee77042afb1dd1c1f8fbf04/transformed/jetified-viewbinding-7.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.databinding:viewbinding:7.1.1] /home/imran/.gradle/caches/transforms-3/2681963c3ee77042afb1dd1c1f8fbf04/transformed/jetified-viewbinding-7.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-ui-ktx:2.3.0] /home/imran/.gradle/caches/transforms-3/deebfebedf0a3748169817106ebfb7e0/transformed/navigation-ui-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
@@ -420,16 +420,16 @@ MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/imran/.gra
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/imran/.gradle/caches/transforms-3/0b0da4fac5a1ef326fc912ed5f93c374/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.dagger:dagger-lint-aar:2.28.1] /home/imran/.gradle/caches/transforms-3/83e2eac189fa053ba4b6e74edfda328a/transformed/jetified-dagger-lint-aar-2.28.1/AndroidManifest.xml:18:3-42
 MERGED from [com.google.dagger:dagger-lint-aar:2.28.1] /home/imran/.gradle/caches/transforms-3/83e2eac189fa053ba4b6e74edfda328a/transformed/jetified-dagger-lint-aar-2.28.1/AndroidManifest.xml:18:3-42
-INJECTED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml
-INJECTED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml
+INJECTED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml
+INJECTED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml
-		ADDED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml
-		INJECTED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml
+		INJECTED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml
-		ADDED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml
-		INJECTED from /home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml
+		INJECTED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml
 uses-feature#0x00020000
 ADDED from [com.google.android.gms:play-services-maps:16.0.0] /home/imran/.gradle/caches/transforms-3/e8288bae9c6c9ac180bc9d797994e797/transformed/jetified-play-services-maps-16.0.0/AndroidManifest.xml:26:5-28:35
 	android:glEsVersion

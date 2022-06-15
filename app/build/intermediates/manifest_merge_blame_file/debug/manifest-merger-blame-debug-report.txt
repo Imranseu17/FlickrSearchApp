@@ -6,16 +6,16 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->/home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml
+8-->/home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->/home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml
+9-->/home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-11-->/home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:5:5-79
-11-->/home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:5:22-76
+11-->/home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:5:5-79
+11-->/home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:5:22-76
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->/home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:6:5-67
-12-->/home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:6:22-64
+12-->/home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:6:5-67
+12-->/home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:6:22-64
 13
 14    <uses-feature
 14-->[com.google.android.gms:play-services-maps:16.0.0] /home/imran/.gradle/caches/transforms-3/e8288bae9c6c9ac180bc9d797994e797/transformed/jetified-play-services-maps-16.0.0/AndroidManifest.xml:26:5-28:35
@@ -28,61 +28,61 @@
 17-->[com.google.android.gms:play-services-analytics:16.0.8] /home/imran/.gradle/caches/transforms-3/7de3a61f5de2490e74bc4c54bf5413bd/transformed/jetified-play-services-analytics-16.0.8/AndroidManifest.xml:27:22-65
 18
 19    <application
-19-->/home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:8:5-35:19
+19-->/home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:8:5-35:19
 20        android:name="com.flickrSearch.image.MainApplication"
-20-->/home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:9:9-62
+20-->/home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:9:9-62
 21        android:allowBackup="true"
-21-->/home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:10:9-35
+21-->/home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:10:9-35
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 22-->[androidx.core:core:1.5.0] /home/imran/.gradle/caches/transforms-3/2fd13f22171352a3bb0285e6d6591606/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
 23        android:debuggable="true"
 24        android:icon="@mipmap/ic_launcher"
-24-->/home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:11:9-43
+24-->/home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:11:9-43
 25        android:label="@string/app_name"
-25-->/home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:12:9-41
+25-->/home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:12:9-41
 26        android:preserveLegacyExternalStorage="true"
-26-->/home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:13:9-53
+26-->/home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:13:9-53
 27        android:requestLegacyExternalStorage="true"
-27-->/home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:14:9-52
+27-->/home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:14:9-52
 28        android:roundIcon="@mipmap/ic_launcher"
-28-->/home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:15:9-48
+28-->/home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:15:9-48
 29        android:supportsRtl="true"
-29-->/home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:16:9-35
+29-->/home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:16:9-35
 30        android:testOnly="true"
 31        android:theme="@style/AppTheme"
-31-->/home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:17:9-40
+31-->/home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:17:9-40
 32        android:usesCleartextTraffic="true" >
-32-->/home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:18:9-44
+32-->/home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:18:9-44
 33        <activity
-33-->/home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:19:9-21:40
+33-->/home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:19:9-21:40
 34            android:name="com.flickrSearch.image.presentration.activities.MainActivity"
-34-->/home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:20:13-88
+34-->/home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:20:13-88
 35            android:exported="false" />
-35-->/home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:21:13-37
+35-->/home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:21:13-37
 36        <activity
-36-->/home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:22:9-30:20
+36-->/home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:22:9-30:20
 37            android:name="com.flickrSearch.image.presentration.activities.SplashActivity"
-37-->/home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:23:13-90
+37-->/home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:23:13-90
 38            android:exported="true" >
-38-->/home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:24:13-36
+38-->/home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:24:13-36
 39            <intent-filter>
-39-->/home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:25:13-29:29
+39-->/home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:25:13-29:29
 40                <action android:name="android.intent.action.MAIN" />
-40-->/home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:26:17-69
-40-->/home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:26:25-66
+40-->/home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:26:17-69
+40-->/home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:26:25-66
 41
 42                <category android:name="android.intent.category.LAUNCHER" />
-42-->/home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:28:17-77
-42-->/home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:28:27-74
+42-->/home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:28:17-77
+42-->/home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:28:27-74
 43            </intent-filter>
 44        </activity>
 45
 46        <uses-library
-46-->/home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:32:9-34:40
+46-->/home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:32:9-34:40
 47            android:name="org.apache.http.legacy"
-47-->/home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:33:13-50
+47-->/home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:33:13-50
 48            android:required="false" />
-48-->/home/imran/Downloads/Task/FlickrSearch/app/src/main/AndroidManifest.xml:34:13-37
+48-->/home/imran/Downloads/FlickrSearchApp/app/src/main/AndroidManifest.xml:34:13-37
 49
 50        <receiver
 50-->[com.google.android.gms:play-services-analytics:16.0.8] /home/imran/.gradle/caches/transforms-3/7de3a61f5de2490e74bc4c54bf5413bd/transformed/jetified-play-services-analytics-16.0.8/AndroidManifest.xml:30:9-34:20

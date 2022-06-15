@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/imran/Downloads/Task/FlickrSearch/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-it/values-it.xml",
+            "outputFile": "/home/imran/Downloads/FlickrSearchApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-it/values-it.xml",
             "map": [
                 {
                     "source": "/home/imran/.gradle/caches/transforms-3/3eaef1256269454e460c716bfd9ebcf7/transformed/jetified-play-services-places-16.0.0/res/values-it/values.xml",
