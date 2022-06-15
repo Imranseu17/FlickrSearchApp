@@ -1,4 +1,4 @@
-# Restaurant Application - Android Architecture Sample
+# Flickr Search Application - Android  Clean Architecture Sample
 
 # Android Architecture use this Project
 
@@ -9,6 +9,10 @@
  * Retrofit
  * Room
  * Navigation
+ * Lifecycle
+ * Glide
+ * picasso
+ * reactivex
  
  ## You should also take a look at
  * [Guide to app architecture](https://developer.android.com/jetpack/guide)

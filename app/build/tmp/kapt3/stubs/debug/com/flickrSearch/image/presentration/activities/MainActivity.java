@@ -6,7 +6,6 @@ import java.lang.System;
 @dagger.hilt.android.AndroidEntryPoint()
 public final class MainActivity extends androidx.appcompat.app.AppCompatActivity {
     private com.flickrSearch.image.databinding.ActivityMainBinding binding;
-    private java.util.HashMap _$_findViewCache;
     
     public MainActivity() {
         super();

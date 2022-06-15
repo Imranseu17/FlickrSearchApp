@@ -4,6 +4,7 @@ package com.flickrSearch.image.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,10 +21,15 @@ public final class FragmentImageBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
+  public final ImageView backButton;
+
+  @NonNull
   public final ViewPager pager;
 
-  private FragmentImageBinding(@NonNull LinearLayout rootView, @NonNull ViewPager pager) {
+  private FragmentImageBinding(@NonNull LinearLayout rootView, @NonNull ImageView backButton,
+      @NonNull ViewPager pager) {
     this.rootView = rootView;
+    this.backButton = backButton;
     this.pager = pager;
   }
 
@@ -54,13 +60,19 @@ public final class FragmentImageBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.back_button;
+      ImageView backButton = ViewBindings.findChildViewById(rootView, id);
+      if (backButton == null) {
+        break missingId;
+      }
+
       id = R.id.pager;
       ViewPager pager = ViewBindings.findChildViewById(rootView, id);
       if (pager == null) {
         break missingId;
       }
 
-      return new FragmentImageBinding((LinearLayout) rootView, pager);
+      return new FragmentImageBinding((LinearLayout) rootView, backButton, pager);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
