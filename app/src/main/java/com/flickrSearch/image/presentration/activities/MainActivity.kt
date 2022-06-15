@@ -1,7 +1,11 @@
 package com.flickrSearch.image.presentration.activities
 
 
+import android.content.Intent
 import android.os.Bundle
+import android.view.View
+import android.view.ViewGroup
+import android.widget.FrameLayout
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
@@ -24,16 +28,13 @@ class MainActivity : AppCompatActivity() {
 
         val navController = findNavController(R.id.nav_host_fragment_activity_main)
 
-
+        val frameLayout = findViewById<View>(R.id.nav_host_fragment_activity_main) as FrameLayout
 
         val bottomNavBar: BottomNavBar.OnBottomNavigationListener =
             BottomNavBar.OnBottomNavigationListener {
                 when (it.getItemId()) {
-                    R.id.restaurant_data -> {
-                        navController.navigate(R.id.Photo_list_fragment)
 
-                    }
-                    R.id.restaurant_search_data -> {
+                    R.id.search_data -> {
                         navController.navigate(R.id.photo_list_search)
                     }
 
@@ -46,6 +47,30 @@ class MainActivity : AppCompatActivity() {
         val bottomNavView: BottomNavBar = findViewById(R.id.bottom_nav_view)
         bottomNavView.setBottomNavigationListener(bottomNavBar)
 
+        navController.addOnDestinationChangedListener { _, destination, _ ->
+            if(destination.id == R.id.Photo_view) {
+
+                bottomNavView.visibility = View.GONE
+                setMargins(frameLayout,0,0,0,0)
+            }
+            else{
+                bottomNavView.visibility = View.VISIBLE
+                setMargins(frameLayout,0,0,0,0)
+            }
+        }
+
+
 
     }
+
+    private fun setMargins(view: View, left: Int, top: Int, right: Int, bottom: Int) {
+        if (view.layoutParams is ViewGroup.MarginLayoutParams) {
+            val p = view.layoutParams as ViewGroup.MarginLayoutParams
+            p.setMargins(left, top, right, bottom)
+            view.requestLayout()
+        }
+    }
+
+
+
 }

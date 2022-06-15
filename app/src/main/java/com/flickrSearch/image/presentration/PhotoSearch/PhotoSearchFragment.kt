@@ -63,6 +63,8 @@ class PhotosearchFragment : Fragment(),PhotoSearchAdapter.PhotoItemListener{
                 } else false
             }
         })
+
+
     }
     private fun setupRecyclerView() {
         adapter = PhotoSearchAdapter(requireContext(),list,this)

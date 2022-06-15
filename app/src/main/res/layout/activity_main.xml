@@ -11,22 +11,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:layout_marginBottom="0dp"
-        app:layout_anchorGravity="bottom"
-
         app:bn_background_color="@color/colorBottomNav"
+        app:bn_fab_background_color="@color/colorError"
+        app:bn_fab_icon_color="@color/colorOnPrimary"
+        app:bn_fab_size="normal"
         app:bn_item_color="@color/bottom_nav_item_state"
         app:bn_menu="@menu/bottom_nav_menu"
-        app:bn_curve_vertical_offset="0dp"
-        app:bn_curve_margin="6dp"
-        app:bn_curve_rounded_corner_radius="8dp"
-        app:bn_fab_size="normal"
-        app:bn_fab_menu_index="1"
+        app:layout_anchorGravity="bottom"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:bn_fab_background_color="@color/colorError"
-        app:bn_fab_icon_color="@color/colorOnPrimary"/>
+        app:layout_constraintRight_toRightOf="parent" />
 
     <fragment
         android:id="@+id/nav_host_fragment_activity_main"
@@ -39,6 +34,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
         app:navGraph="@navigation/nav_graph" />
 
 

@@ -7,8 +7,6 @@ import com.flickrSearch.image.presentration.PhotoSearch.PhotosearchViewModel_Hil
 import com.flickrSearch.image.presentration.activities.MainActivity_GeneratedInjector;
 import com.flickrSearch.image.presentration.activities.SplashActivity_GeneratedInjector;
 import com.flickrSearch.image.presentration.fullImage.ImageFragment_GeneratedInjector;
-import com.flickrSearch.image.presentration.list.PhotoListFragment_GeneratedInjector;
-import com.flickrSearch.image.presentration.list.PhotoViewModel_HiltModule;
 import dagger.Binds;
 import dagger.Component;
 import dagger.Module;
@@ -134,7 +132,6 @@ public final class MainApplication_HiltComponents {
   @Subcomponent(
       modules = {
           ActivityCBuilderModule.class,
-          PhotoViewModel_HiltModule.class,
           PhotosearchViewModel_HiltModule.class
       }
   )
@@ -173,7 +170,6 @@ public final class MainApplication_HiltComponents {
   @FragmentScoped
   public abstract static class FragmentC implements PhotosearchFragment_GeneratedInjector,
       ImageFragment_GeneratedInjector,
-      PhotoListFragment_GeneratedInjector,
       FragmentComponent,
       DefaultViewModelFactories.FragmentEntryPoint,
       ViewComponentManager.ViewWithFragmentComponentBuilderEntryPoint,

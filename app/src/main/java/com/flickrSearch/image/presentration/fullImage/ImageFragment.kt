@@ -35,18 +35,10 @@ class ImageFragment : Fragment() {
         getView()?.setOnKeyListener(object : View.OnKeyListener {
             override fun onKey(v: View?, keyCode: Int, event: KeyEvent?): Boolean {
                 return if (keyCode == KeyEvent.KEYCODE_BACK) {
-                    if(Constant.gotobackpage == 1)
-                    {
-                        findNavController().navigate(
-                            R.id.Photo_list_fragment
-                        )
-                    }else{
                         findNavController().navigate(
                             R.id.photo_list_search
                         )
-                    }
                     true
-
                 } else false
             }
         })
@@ -59,6 +51,12 @@ class ImageFragment : Fragment() {
 
         //Adding the Adapter to the ViewPager
         binding.pager.setAdapter(adapter)
+
+        binding.backButton.setOnClickListener{
+            findNavController().navigate(
+                R.id.photo_list_search
+            )
+        }
 
     }
 

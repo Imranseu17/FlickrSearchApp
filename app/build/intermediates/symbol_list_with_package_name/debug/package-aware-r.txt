@@ -2640,7 +2640,6 @@ id CTRL
 id FUNCTION
 id META
 id NO_DEBUG
-id Photo_list_fragment
 id Photo_rv
 id Photo_view
 id SHIFT
@@ -2686,7 +2685,6 @@ id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
 id action0
-id action_Photo_list_fragment_to_Photo_view
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -2726,6 +2724,7 @@ id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
 id automatic
+id back_button
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -2980,8 +2979,6 @@ id ratio
 id rectangles
 id relative_layout
 id restart
-id restaurant_data
-id restaurant_search_data
 id reverse
 id reverseSawtooth
 id right
@@ -3006,6 +3003,7 @@ id search_badge
 id search_bar
 id search_button
 id search_close_btn
+id search_data
 id search_edit_frame
 id search_go_btn
 id search_mag_icon
@@ -3224,7 +3222,6 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_image
-layout fragment_photo_list
 layout image_layout
 layout item_photo
 layout m3_alert_dialog

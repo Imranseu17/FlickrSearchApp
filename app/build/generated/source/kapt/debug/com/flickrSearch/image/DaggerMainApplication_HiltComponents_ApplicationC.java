@@ -27,9 +27,6 @@ import com.flickrSearch.image.presentration.PhotoSearch.PhotosearchViewModel_Ass
 import com.flickrSearch.image.presentration.activities.MainActivity;
 import com.flickrSearch.image.presentration.activities.SplashActivity;
 import com.flickrSearch.image.presentration.fullImage.ImageFragment;
-import com.flickrSearch.image.presentration.list.PhotoListFragment;
-import com.flickrSearch.image.presentration.list.PhotoViewModel_AssistedFactory;
-import com.flickrSearch.image.presentration.list.PhotoViewModel_AssistedFactory_Factory;
 import dagger.hilt.android.internal.builders.ActivityComponentBuilder;
 import dagger.hilt.android.internal.builders.ActivityRetainedComponentBuilder;
 import dagger.hilt.android.internal.builders.FragmentComponentBuilder;
@@ -40,7 +37,6 @@ import dagger.hilt.android.internal.modules.ApplicationContextModule;
 import dagger.hilt.android.internal.modules.ApplicationContextModule_ProvideApplicationFactory;
 import dagger.hilt.android.internal.modules.ApplicationContextModule_ProvideContextFactory;
 import dagger.internal.DoubleCheck;
-import dagger.internal.MapBuilder;
 import dagger.internal.MemoizedSentinel;
 import dagger.internal.Preconditions;
 import java.util.Collections;
@@ -241,25 +237,10 @@ public final class DaggerMainApplication_HiltComponents_ApplicationC extends Mai
     private final class ActivityCImpl extends MainApplication_HiltComponents.ActivityC {
       private final Activity activity;
 
-      private volatile Provider<PhotoViewModel_AssistedFactory> photoViewModel_AssistedFactoryProvider;
-
       private volatile Provider<PhotosearchViewModel_AssistedFactory> photosearchViewModel_AssistedFactoryProvider;
 
       private ActivityCImpl(Activity activityParam) {
         this.activity = activityParam;
-      }
-
-      private PhotoViewModel_AssistedFactory getPhotoViewModel_AssistedFactory() {
-        return PhotoViewModel_AssistedFactory_Factory.newInstance(DaggerMainApplication_HiltComponents_ApplicationC.this.getPhotoRepositoryProvider());
-      }
-
-      private Provider<PhotoViewModel_AssistedFactory> getPhotoViewModel_AssistedFactoryProvider() {
-        Object local = photoViewModel_AssistedFactoryProvider;
-        if (local == null) {
-          local = new SwitchingProvider<>(0);
-          photoViewModel_AssistedFactoryProvider = (Provider<PhotoViewModel_AssistedFactory>) local;
-        }
-        return (Provider<PhotoViewModel_AssistedFactory>) local;
       }
 
       private PhotosearchViewModel_AssistedFactory getPhotosearchViewModel_AssistedFactory() {
@@ -270,7 +251,7 @@ public final class DaggerMainApplication_HiltComponents_ApplicationC extends Mai
           ) {
         Object local = photosearchViewModel_AssistedFactoryProvider;
         if (local == null) {
-          local = new SwitchingProvider<>(1);
+          local = new SwitchingProvider<>(0);
           photosearchViewModel_AssistedFactoryProvider = (Provider<PhotosearchViewModel_AssistedFactory>) local;
         }
         return (Provider<PhotosearchViewModel_AssistedFactory>) local;
@@ -278,7 +259,7 @@ public final class DaggerMainApplication_HiltComponents_ApplicationC extends Mai
 
       private Map<String, Provider<ViewModelAssistedFactory<? extends ViewModel>>> getMapOfStringAndProviderOfViewModelAssistedFactoryOf(
           ) {
-        return MapBuilder.<String, Provider<ViewModelAssistedFactory<? extends ViewModel>>>newMapBuilder(2).put("com.flickrSearch.image.presentration.list.PhotoViewModel", (Provider) getPhotoViewModel_AssistedFactoryProvider()).put("com.flickrSearch.image.presentration.PhotoSearch.PhotosearchViewModel", (Provider) getPhotosearchViewModel_AssistedFactoryProvider()).build();
+        return Collections.<String, Provider<ViewModelAssistedFactory<? extends ViewModel>>>singletonMap("com.flickrSearch.image.presentration.PhotoSearch.PhotosearchViewModel", (Provider) getPhotosearchViewModel_AssistedFactoryProvider());
       }
 
       private ViewModelProvider.Factory getProvideFactory() {
@@ -341,10 +322,6 @@ public final class DaggerMainApplication_HiltComponents_ApplicationC extends Mai
 
         @Override
         public void injectImageFragment(ImageFragment imageFragment) {
-        }
-
-        @Override
-        public void injectPhotoListFragment(PhotoListFragment photoListFragment) {
         }
 
         @Override
@@ -413,10 +390,7 @@ public final class DaggerMainApplication_HiltComponents_ApplicationC extends Mai
         @Override
         public T get() {
           switch (id) {
-            case 0: // com.flickrSearch.image.presentration.list.PhotoViewModel_AssistedFactory 
-            return (T) ActivityCImpl.this.getPhotoViewModel_AssistedFactory();
-
-            case 1: // com.flickrSearch.image.presentration.PhotoSearch.PhotosearchViewModel_AssistedFactory 
+            case 0: // com.flickrSearch.image.presentration.PhotoSearch.PhotosearchViewModel_AssistedFactory 
             return (T) ActivityCImpl.this.getPhotosearchViewModel_AssistedFactory();
 
             default: throw new AssertionError(id);
