@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/imran/Downloads/FlickrSearchApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w480dp-port-v13/values-w480dp-port-v13.xml",
+            "outputFile": "com.flickrSearch.image.app-mergeDebugResources-26:/values-w480dp-port-v13/values-w480dp-port-v13.xml",
             "map": [
                 {
-                    "source": "/home/imran/.gradle/caches/transforms-3/f6880d88bc79c5c85551ba7d4c60d34a/transformed/material-1.5.0/res/values-w480dp-port-v13/values-w480dp-port-v13.xml",
+                    "source": "/home/imran/.gradle/caches/transforms-3/1f89e0a094c7d5a50e8a82af8c66f6d9/transformed/material-1.5.0/res/values-w480dp-port-v13/values-w480dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

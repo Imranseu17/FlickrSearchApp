@@ -9,7 +9,6 @@ public final class PhotosearchFragment extends androidx.fragment.app.Fragment im
     private final kotlin.Lazy viewModel$delegate = null;
     private com.flickrSearch.image.presentration.PhotoSearch.PhotoSearchAdapter adapter;
     private java.util.ArrayList<com.flickrSearch.image.models.Photo> list;
-    private java.util.HashMap _$_findViewCache;
     
     public PhotosearchFragment() {
         super();

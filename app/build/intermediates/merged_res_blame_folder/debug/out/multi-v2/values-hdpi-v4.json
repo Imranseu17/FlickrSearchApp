@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/imran/Downloads/FlickrSearchApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "com.flickrSearch.image.app-mergeDebugResources-26:/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "/home/imran/.gradle/caches/transforms-3/daeac8159e3d97f4972b47d9ce911832/transformed/appcompat-1.2.0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "source": "/home/imran/.gradle/caches/transforms-3/77564d88eb79d79c2a7e64a4b618ed1d/transformed/appcompat-1.2.0/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

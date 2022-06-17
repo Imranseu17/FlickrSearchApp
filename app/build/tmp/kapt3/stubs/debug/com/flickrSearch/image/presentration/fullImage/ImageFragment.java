@@ -7,7 +7,6 @@ import java.lang.System;
 public final class ImageFragment extends androidx.fragment.app.Fragment {
     private final com.flickrSearch.image.usecase.AutoClearedValue binding$delegate = null;
     private com.flickrSearch.image.presentration.fullImage.ImageAdapter adapter;
-    private java.util.HashMap _$_findViewCache;
     
     public ImageFragment() {
         super();
